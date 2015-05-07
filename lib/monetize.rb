@@ -5,6 +5,9 @@ require "monetize/core_extensions"
 require "monetize/version"
 require "collection"
 
+I18n.enforce_available_locales = false
+
+
 module Monetize
 
   CURRENCY_SYMBOLS = {
